@@ -1,1 +1,1 @@
-# BQ6wm5xe
+# raidkillbot-discord

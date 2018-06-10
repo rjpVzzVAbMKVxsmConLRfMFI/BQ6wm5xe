@@ -1,0 +1,8 @@
+Discord Bot Stuff;
+
+
+Client ID: 372064636721430528
+
+Token: MzcyMDY0NjM2NzIxNDMwNTI4.DM_XVw.gzSuXzAsHQZJ_iFezt60ekmFGf8
+
+Invite: https://discordapp.com/oauth2/authorize?client_id=372064636721430528&scope=bot&permissions=0
