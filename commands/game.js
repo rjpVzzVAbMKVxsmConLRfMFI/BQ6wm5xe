@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
       bot.user.setGame(suffix)
       message.delete()
       message.channel.send({embed:{
-        title:"Game Status Changed",
+        title:"Game Status Updated",
         description:(suffix),
         color:0xE2E200
       }})
