@@ -47,24 +47,6 @@ bot.on('ready', () => {
   bot.user.setStatus('online');
 });
 
-// 8ball command.
-bot.on('message', (message) => {
-message.content = message.content.slice(0,6);
-  if(message.content === '$8ball') {
-    var rng1 = (Math.floor((Math.random() * 3) + 1))
-
-    if(rng1 === 1) {
-      var yesnoanswer = 'Yes.'
-    }
-    if(rng1 === 2) {
-      var yesnoanswer = 'No.'
-    }
-    if (rng1 === 3) {
-      var yesnoanswer = 'Maybe..'
-    }
-    message.channel.send(`${message.author} ${yesnoanswer}`);
-  }
-})
 
 // Status command.
 bot.on('message', (message) => {
